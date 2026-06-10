@@ -9,14 +9,16 @@
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "framer-motion": "latest",
-    "i18next": "^26.3.1",
-    "lucide-react": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-i18next": "^17.0.8",
-    "react-router-dom": "latest",
-    "vite": "latest"
+    "framer-motion": "^12.23.24",
+    "i18next": "^25.7.2",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.1",
+    "react-router-dom": "^7.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.0",
+    "vite": "^6.0.7"
   }
 }
