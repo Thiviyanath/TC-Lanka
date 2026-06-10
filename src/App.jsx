@@ -10,6 +10,7 @@ import Portfolio from './pages/Portfolio.jsx';
 import Careers from './pages/Careers.jsx';
 import Blog from './pages/Blog.jsx';
 import Contact from './pages/Contact.jsx';
+import LanguageSwitcher from "./components/LanguageSwitcher.jsx";
 
 function Page({ children }) {
   return (
@@ -25,6 +26,7 @@ export default function App() {
     <>
       <Background />
       <Navbar />
+      <LanguageSwitcher />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Page><Home /></Page>} />
