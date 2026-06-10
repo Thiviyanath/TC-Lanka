@@ -1,0 +1,2 @@
+import SectionTitle from '../components/SectionTitle.jsx';import ServiceCard from '../components/ServiceCard.jsx';import { services } from '../data/content.js';
+export default function Services(){return <main className="page"><section className="container section"><SectionTitle eyebrow="TCL SERVICES" title="Everything a modern business needs to go digital." text="From idea to design, development, deployment, marketing and security."/><div className="service-grid">{services.map((s,i)=><ServiceCard key={s.title} service={s} index={i}/>)}</div></section></main>}

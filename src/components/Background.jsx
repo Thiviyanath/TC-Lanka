@@ -1,0 +1,2 @@
+import { motion } from 'framer-motion';
+export default function Background(){return <div className="bg-scene"><div className="grid-lines"/><motion.div className="orb orb-a" animate={{x:[0,80,0],y:[0,40,0]}} transition={{duration:14,repeat:Infinity}}/><motion.div className="orb orb-b" animate={{x:[0,-70,0],y:[0,-55,0]}} transition={{duration:16,repeat:Infinity}}/><motion.div className="orb orb-c" animate={{scale:[1,1.25,1]}} transition={{duration:10,repeat:Infinity}}/></div>}

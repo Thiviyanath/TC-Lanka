@@ -1,0 +1,1 @@
+export default function Footer(){return <footer className="footer"><div><b>TC LANKA</b><p>Engineering Digital Products from Sri Lanka to the World.</p></div><p>© 2026 TC LANKA. All rights reserved.</p></footer>}
